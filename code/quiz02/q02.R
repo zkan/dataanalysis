@@ -5,3 +5,4 @@ simplyStats <- readLines(con, 150)
 close(con)
 
 numChars <- nchar(simplyStats)
+

@@ -8,4 +8,6 @@ distIrisSubset <- dist(irisSubset)
 hClustering <- hclust(distIrisSubset)
 plot(hClustering)
 
+table(cutree(hClustering, h = 3))
+
 

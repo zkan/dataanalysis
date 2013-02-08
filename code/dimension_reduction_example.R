@@ -42,3 +42,7 @@ par(mfrow = c(1, 2))
 plot(svd1$v[, 1], pch = 19)
 plot(svd2$v[, 1], pch = 19)
 
+
+
+
+
